@@ -1,1 +1,8 @@
+top_side = 10 #上辺
+bottom_side = 20 #下辺
+heights = 5 #高さ
 
+area = (top_side + bottom_side)*heights / 2
+
+#答え
+print(f"{area}㎠です")
